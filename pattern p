@@ -9,7 +9,7 @@ int main(void)
     {
     	for(j=1;j<=columns;j++)
     	{
-    		if(i==1||i==rows||j==1||j==columns)
+    		if(i==1 || j==1|| i==rows/2 ||i<rows/2 && j==columns)
     		{
     			printf("*");
     		}
@@ -17,9 +17,9 @@ int main(void)
     		{
     			printf(" ");
     		}
-    		printf("\n");
-    		
     	}
+    printf("\n");	
     }
+    	
 	return 0;
 }
